@@ -1,0 +1,28 @@
+{
+"name": "opj_1d",
+
+"domain" : {
+
+  "Liquid_1_vol" : {
+    "name":"Liquid_1_vol",
+    "type":"discrete_numeric",
+    "items":"5:1:245"
+  },
+
+  "Liquid_2_vol" : {
+    "name":"Liquid_2_vol",
+    "type":"discrete_numeric",
+    "items":"5:1:245"
+  }
+
+
+ },
+
+ "domain_constraints":{
+
+  "constraint_1":{
+    "name":"max_volume",
+    "constraint":"Liquid_1_vol + Liquid_2_vol == 250"
+  }
+ }
+}

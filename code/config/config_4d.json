@@ -1,0 +1,46 @@
+{
+"name": "opj_4d",
+
+"domain" : {
+
+  "Liquid_1_vol" : {
+    "name":"Liquid_1_vol",
+    "type":"discrete_numeric",
+    "items":"5:1:230"
+  },
+
+  "Liquid_2_vol" : {
+    "name":"Liquid_2_vol",
+    "type":"discrete_numeric",
+    "items":"5:1:230"
+  },
+
+  "Liquid_3_vol" : {
+    "name":"Liquid_3_vol",
+    "type":"discrete_numeric",
+    "items":"5:1:230"
+  },
+
+  "Liquid_4_vol" : {
+    "name":"Liquid_4_vol",
+    "type":"discrete_numeric",
+    "items":"5:1:230"
+  },
+
+  "Liquid_5_vol" : {
+    "name":"Liquid_5_vol",
+    "type":"discrete_numeric",
+    "items":"5:1:230"
+  }
+
+ },
+
+ "domain_constraints":{
+
+  "constraint_1":{
+    "name":"max_volume",
+    "constraint":"Liquid_1_vol + Liquid_2_vol + Liquid_3_vol + Liquid_4_vol + Liquid_5_vol == 250"
+  }
+
+  }
+ }

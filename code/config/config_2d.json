@@ -1,0 +1,34 @@
+{
+"name": "opj_2d",
+
+"domain" : {
+
+  "Liquid_1_vol" : {
+    "name":"Liquid_1_vol",
+    "type":"discrete_numeric",
+    "items":"5:1:240"
+  },
+
+  "Liquid_2_vol" : {
+    "name":"Liquid_2_vol",
+    "type":"discrete_numeric",
+    "items":"5:1:240"
+  },
+
+  "Liquid_3_vol" : {
+  "name":"Liquid_3_vol",
+  "type":"discrete_numeric",
+  "items":"5:1:240"
+  }
+
+
+ },
+
+ "domain_constraints":{
+
+  "constraint_1":{
+    "name":"max_volume",
+    "constraint":"Liquid_1_vol + Liquid_2_vol + Liquid_3_vol == 250"
+  }
+ }
+}
