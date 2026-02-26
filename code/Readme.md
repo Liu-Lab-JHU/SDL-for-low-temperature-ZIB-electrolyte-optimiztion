@@ -22,8 +22,8 @@ Details for Using HTTP API to control OT-2 robot, see [OT-2 HTTP API](https://gi
 
 Details of using Python to control EC Biologic potentiostat, see [easy-biologic](https://github.com/bicarlsen/easy-biologic.)
 
-Details of implement of Dragonfly for Bayesian optimization, see [Dragonfly](https://github.com/dragonfly/dragonfly).
+Details of the implementation of Dragonfly for Bayesian optimization, see [Dragonfly](https://github.com/dragonfly/dragonfly).
 
 
 
-`main_code.py`: Main code for the SDL.
+`main_code.py`: Example main code for the SDL. A five-dimensional mapping was used as the example.
